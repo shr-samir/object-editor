@@ -22,7 +22,7 @@ const App = () => {
       <header>
         <Navbar />
       </header>
-      <main className="flex-1 max-w-7xl mx-auto w-full">
+      <main className="flex-1 w-full">
         <Routes>
           {routes.map((route) => (
             <Route key={route.path} path={route.path} element={route.element} />
